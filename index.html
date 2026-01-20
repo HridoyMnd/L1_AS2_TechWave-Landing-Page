@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="https://kit.fontawesome.com/4c236feb5b.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4c236feb5b.js"
+      crossorigin="anonymous"
+    ></script>
     <title>TechWave Landing Page</title>
   </head>
   <body>
     <!-- header section -->
     <header class="bg-[#1a0b2e]">
-      <nav class="w-[90%] m-auto text-white flex items-center justify-between py-3">
+      <nav
+        class="w-[90%] m-auto text-white flex items-center justify-between py-3"
+      >
         <!-- logo side -->
         <aside>
           <h3 class="flex text-lg font-semibold sm:text-2xl md:text-3xl">
@@ -24,24 +29,63 @@
         </aside>
         <!-- hambarger side -->
         <aside class="sm:hidden cursor-pointer">
-            <img class="" src="./images/hamburger-menu.png" alt="">
+          <img class="" src="./images/hamburger-menu.png" alt="" />
         </aside>
         <!-- nav menu link -->
         <aside class="hidden sm:block">
-          <ul class="flex  gap-2">
-            <li><a class="px-3 md:px-5 py-2 hover:text-[#fb09b4] duration-300" href="">About</a></li>
-            <li><a class="px-3 md:px-5 py-2 hover:text-[#fb09b4] duration-300" href="">Episodes</a></li>
-            <li><a class="px-3 md:px-5 py-2 hover:text-[#fb09b4] duration-300" href="">Host</a></li>
+          <ul class="flex gap-2">
+            <li>
+              <a
+                class="px-3 md:px-5 py-2 hover:text-[#fb09b4] duration-300"
+                href=""
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 md:px-5 py-2 hover:text-[#fb09b4] duration-300"
+                href=""
+                >Episodes</a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 md:px-5 py-2 hover:text-[#fb09b4] duration-300"
+                href=""
+                >Host</a
+              >
+            </li>
           </ul>
         </aside>
         <!-- nav button side -->
         <aside class="hidden sm:block">
-            <button class="flex items-center gap-2 px-5 md:px-7 cursor-pointer rounded-full py-2 bg-gradient-to-bl from-[#9100f8] via-[#fb09b4] to-[#f7e93f]">
-                <h5>Subscribe</h5>
-                <i class="fa-solid fa-arrow-right"></i>
-            </button>
+          <button
+            class="flex items-center gap-2 px-5 md:px-7 cursor-pointer rounded-full py-2 bg-gradient-to-bl from-[#9100f8] via-[#fb09b4] to-[#f7e93f]"
+          >
+            <h5>Subscribe</h5>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </aside>
       </nav>
+      <!-- banner section -->
+       <section style="background-image: url('./images/hero-bg.png');" class="bg-cover bg-center md:py-20">
+        <div class="text-white text-center flex flex-col items-center gap-y-4">
+          <div class="w-40 h-40 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-full flex items-center justify-center bg-gradient-to-bl from-[#9100f8] via-[#fb09b4] to-[#f7e93f] mt-15 md:mt-0">
+            <img class="w-3/12" src="./images/microphone.png" alt="">
+          </div>
+          <h1 class="text-2xl font-bold sm:text-4xl">
+            TechWave
+          </h1>
+          <p class="w-9/12 mx-auto text-gray-300">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+          <div class="button_container flex items-center gap-4 my-3">
+            <button class="flex items-center gap-2 px-4 sm:px-6 text-sm font-semibold py-2 rounded-full bg-gradient-to-bl from-[#9100f8] via-[#fb09b4] to-[#f7e93f]"><span><img src="./images/spotify.png" alt=""></span>
+              <span>Listen With Sopify</span>
+              </button>
+            <button class="px-4 sm:px-6 flex items-center gap-2 text-sm font-semibold border py-2 rounded-full text-[#00FF88]"><span><img src="./images/message.png" alt=""></span><span>Subscribe</span></button>
+          </div>
+        </div>
+
+       </section>
     </header>
     <!-- main content section -->
     <main></main>
